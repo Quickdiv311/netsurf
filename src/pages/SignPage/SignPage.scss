@@ -1,0 +1,13 @@
+.sign
+{
+    position: relative;
+    border: 1px solid black;
+    background: #00000050;
+    margin: 10px auto auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 2s ease-out;
+}

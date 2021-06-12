@@ -1,0 +1,11 @@
+.collection
+{
+    display: flex;
+    flex-direction: column;
+
+    .items
+    {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr;
+    }
+}

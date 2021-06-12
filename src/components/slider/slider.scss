@@ -1,0 +1,50 @@
+.slider
+{
+    position: relative;
+    display: flex;
+    height: 450px;
+    width: 90%;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image
+{
+    height: 400px;
+    width: 1800px;
+}
+
+.left-arrow
+{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    font-size: 3rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    color: gray;
+}
+
+.right-arrow
+{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    font-size: 3rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    color: gray;
+}
+
+.slide{
+opacity: 0;
+
+&.active
+{
+ opacity: 1;
+ transition: 1s ease;
+}
+}
