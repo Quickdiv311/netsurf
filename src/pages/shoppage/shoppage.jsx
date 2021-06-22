@@ -16,7 +16,6 @@ class ShopPage extends React.Component{
         const collectionRef = firestore.collection('collections');
         this.unSubSnapshot = collectionRef.onSnapshot(async snapshot => {
             const collectionsObject = downloadCollectionsData(snapshot);
-            console.log(collectionsObject);
             updateCollections(collectionsObject); 
         })
     }

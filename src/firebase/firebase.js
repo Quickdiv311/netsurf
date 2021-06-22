@@ -74,4 +74,5 @@ export const downloadCollectionsData = (collection) => {
     },{});
 } 
 
+
 export default firebase;

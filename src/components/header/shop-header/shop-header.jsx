@@ -8,7 +8,7 @@ const ShopHeader = ({history,match}) => {
             <div className="option" onClick={() => history.push(`${match.path}/naturamore`)}>
                 Naturamore
             </div>
-            <div className="option" onClick={() => history.push(`${match.path}/herbsAndMore`)}>
+            <div className="option" onClick={() => history.push(`${match.path}/herbsandmore`)}>
                 HerbsAndMore
             </div>
             </div>       
