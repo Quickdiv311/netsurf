@@ -25,7 +25,7 @@ export const createUserProfile = async (userAuth, additionalData) => {
 
     if(!userSnap.exists)
     {
-        const {email,displayName} = userAuth;
+        const {email,displayName} = userAuth;   
         const createdAt = new Date();
 
        try{
